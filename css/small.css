@@ -1,13 +1,57 @@
+/*
+ * Main components
+ */
+
 body {
     background-color: #f5f4f2;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+main {
+    padding: 1rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    padding: 2rem;
+}
+
 header {
+    background-color: #ffffff;
+}
+
+/* Headings */
+
+h1, h2, h3, h4 {
+    font-family:  'Poppins', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/*
+ * Navigation section
+ */
+
+ .header-container {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
-    background-color: #ffffff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
 }
 
 .logo-section {
@@ -50,27 +94,6 @@ header {
     display: block;
 }
 
-main {
-    padding: 1rem;
-    max-width: 1100px;
-    margin: auto;
-}
-
-.section-title {
-    text-align: center;
-    background-color: #ede7e7;
-    padding: 2rem;
-}
-
-article {
-    display: flex;
-}
-
-article .post-content {
-    padding: 1rem;
-}
-
-
 /*
  * Footer section
  */
@@ -80,6 +103,9 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    background-color: #fff;
 }
 
 .social-links {
@@ -105,4 +131,21 @@ footer {
 
 .social-links svg.facebook:hover {
     fill: #3257a0; 
+}
+
+/*
+ * Article, post
+ */
+
+ .blog {
+    padding: 2rem 0;
+}
+
+article {
+    display: flex;
+}
+
+article .post-content {
+    padding: 1rem;
+    margin: 3rem 0;
 }
