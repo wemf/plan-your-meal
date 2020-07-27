@@ -1,4 +1,4 @@
-fetch('../data/food.json')
+fetch('https://wemf.github.io/plan-your-meal/data/food.json')
   .then(response => response.json())
   .then(data => {
 
