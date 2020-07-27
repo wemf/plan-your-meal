@@ -175,6 +175,7 @@ article .post-content {
 .contact-form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2rem;
 }
 
 input, textarea {
@@ -184,8 +185,12 @@ input, textarea {
     line-height: 1.5;
     box-shadow: none;
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     font-size: 1.25rem;
+}
+
+label{
+    margin: .5rem 0;
 }
 
 .contact-map{
@@ -194,10 +199,32 @@ input, textarea {
     position:relative;
     height:0;
 }
+
 .contact-map iframe{
     left:0;
     top:0;
     height:100%;
     width:100%;
     position:absolute;
+}
+
+.btn {
+    outline: none;
+    text-decoration: none;
+    border: solid 2px #333;
+    padding: .5rem;
+    color: #333;
+    box-shadow: 4px 4px 0 0 #333;
+    max-width: fit-content;
+}
+
+.btn-primary{
+    color: #fff;
+    background: #f0764f;    
+}
+
+.btn-primary:hover{
+    color: #f0764f;    
+    background: #fff;
+    cursor: pointer;
 }
