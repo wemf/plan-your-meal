@@ -103,8 +103,7 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 1rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
     background-color: #fff;
 }
 
@@ -161,6 +160,21 @@ article .post-content {
     background-color: #fff;
     border-bottom: 4px solid #76768E;
     padding: 0 1rem;
+}
+
+/*
+ * Banner and CTA
+ */
+.hero-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, .35),rgba(0, 0, 0, .7)), url("../images/dan-gold-4_jhDO54BYg-unsplash.jpg");
+    background-position: bottom center;
+    height: 200px;
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 3rem;
+    background-color: #76768e;
 }
 
 /*

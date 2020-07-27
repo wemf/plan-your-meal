@@ -20,5 +20,9 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
     }
+
+    .hero-banner{
+        height: 320px;
+    }
     
 }
