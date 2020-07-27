@@ -3,6 +3,8 @@ fetch('../data/food.json')
   .then(data => {
 
       const categories = document.getElementById('food-categories');
+
+      // populate categories
       data.categories.forEach(category => {
         let container = document.createElement('div');
         let picture = document.createElement('picture');
@@ -32,4 +34,29 @@ fetch('../data/food.json')
         categories.appendChild(container);
 
       });
+
+      //populate recipies
+      const recipe = document.getElementById("recipe");
+      let tbody = document.createElement('tbody');
+      // sample recipe
+      const arepa = data.recipies[0];
+
+      for (let i = 0; i<4; i++){
+        let tr = document.createElement('tr');
+        let td0 = document.createElement('td');
+        let td1 = document.createElement('td');
+        let td2 = document.createElement('td');
+        
+        td0.textContent = i;
+        td1.textContent = arepa.ingredients[i];
+        td2.textContent = arepa.directions[i];
+        td2.setAttribute("colspan", 2);
+        
+        tr.appendChild(td0);
+        tr.appendChild(td1);
+        tr.appendChild(td2);
+        tbody.appendChild(tr);
+      }
+
+      recipe.appendChild(tbody);
   })
