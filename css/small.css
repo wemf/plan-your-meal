@@ -137,15 +137,28 @@ footer {
  * Article, post
  */
 
- .blog {
+.blog {
     padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 article {
     display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 2rem 0;
+}
+
+article picture {
+    display: flex;
+    justify-content: center;
 }
 
 article .post-content {
-    padding: 1rem;
-    margin: 3rem 0;
+    background-color: #fff;
+    border-bottom: 4px solid #76768E;
+    padding: 0 1rem;
 }

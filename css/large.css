@@ -1,0 +1,18 @@
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) {
+  
+    article {
+        flex-direction: row;
+        max-width: unset;
+        margin: 2rem 0;
+    }
+
+    article .post-content {
+        padding-left: 1rem;
+    }
+    
+}
