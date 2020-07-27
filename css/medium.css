@@ -30,6 +30,10 @@
         justify-self: center;
     }
 
+    .logo-section img{
+        max-width: unset;
+    }
+
     .navigation li {
         display: block;
         margin: 0 .3rem;

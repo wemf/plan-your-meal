@@ -64,6 +64,7 @@ h3 {
 
 .logo-section img{
     max-height: 90px;
+    max-width: 220px;
 }
 
 .navigation {
@@ -107,6 +108,11 @@ a.burger {
     text-decoration: none;
 }
 
+.logo-section a {
+    display: flex;
+    align-items: start;
+}
+
 /*
  * Footer section
  */
@@ -123,6 +129,7 @@ footer {
 .social-links {
     list-style: none;
     display: flex;
+    padding: 0;
 }
 
 .social-links li {
@@ -224,7 +231,7 @@ input, textarea, select {
     line-height: 1.5;
     box-shadow: none;
     width: 100%;
-    max-width: 350px;
+    max-width: 300px;
     font-size: 1.25rem;
 }
 
