@@ -50,9 +50,20 @@
                     <input id="full_name" name="full_name" required/>
                     <label for="email">Your email *</label>
                     <input type="email" id="email" name="email" required/>
+                    <label for="phone">Your phone *</label>
+                    <input type="phone" id="phone" name="phone" required/>
+                    <label for="age">Your age *</label>
+                    <input type="date" id="age" name="age" required/>
                 </fieldset>
-                <label for="message">Your message</label>
-                <textarea id="message" name="message"></textarea>
+                <fieldset>
+                    <legend>Recipe information</legend>
+                    <label for="category-recipe">Category</label>
+                    <select id="category-recipe" name="category-recipe">
+                        <option value="" selected>-- Choose category --</option>
+                    </select>
+                    <label for="message">Recipe</label>
+                    <textarea id="message" name="message"></textarea>
+                </fieldset>
                 <p>Your data are safe with us. We take your privacy seriously and we will never share your data with anyone. <br/>Read on our Privacy Policy to learn more.</p>
                 <button type="submit" class="btn btn-primary">Submit form</button>
             </form>
@@ -81,6 +92,6 @@
         </ul>
     </footer>
     <script src="js/menu.js" defer></script>
-    <script src="js/blog-api.js"></script>
+    <script src="js/recipes.js"></script>
 </body>
 </html>

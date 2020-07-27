@@ -196,7 +196,7 @@ article .post-content {
     margin-bottom: 2rem;
 }
 
-input, textarea {
+input, textarea, select {
     padding: 5px 15px 2px;
     border: 2px solid #9191a5;
     background-color: #fff;
@@ -224,6 +224,16 @@ label{
     height:100%;
     width:100%;
     position:absolute;
+}
+
+.add-recipe-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-recipe-form fieldset {
+    display: flex;
+    margin-bottom: 2rem;
 }
 
 .btn {
