@@ -76,8 +76,9 @@ h3 {
 .navigation li:first-child {
     display: block;
     font-size: 3rem;
+    padding-right: 1rem;
 }
-  
+
 .navigation li {
     display: none;
 }
@@ -85,19 +86,25 @@ h3 {
 .navigation a {
     font-family: 'Nunito', sans-serif;
     display: block;
-    text-decoration: none;
+    text-decoration: underline;
     color: #333333;
 }
   
 .navigation a:hover, a.active  {
     color: black;
     background-color: white;
+    text-decoration: none;
 }
   
 .responsive li {
     display: block;
     font-size: 1.75rem;
     margin: 1rem;
+    padding-right: 1rem;
+}
+
+a.burger {
+    text-decoration: none;
 }
 
 /*
@@ -173,6 +180,18 @@ article .post-content {
  */
 .hero-banner{
     background-image: linear-gradient(rgba(0, 0, 0, .35),rgba(0, 0, 0, .7)), url("../images/dan-gold-4_jhDO54BYg-unsplash.jpg");
+    background-position: bottom center;
+    height: 200px;
+}
+
+.hero-banner-about{
+    background-image: linear-gradient(rgba(0, 0, 0, .35),rgba(0, 0, 0, .7)), url("../images/michael-browning-MtqG1lWcUw0-unsplash.jpg");
+    background-position: center center;
+    height: 200px;
+}
+
+.hero-banner-recipes{
+    background-image: linear-gradient(rgba(0, 0, 0, .35),rgba(0, 0, 0, .7)), url("../images/elevate-5e-JfidWFH0-unsplash.jpg");
     background-position: bottom center;
     height: 200px;
 }
