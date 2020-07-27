@@ -231,7 +231,7 @@ input, textarea, select {
     line-height: 1.5;
     box-shadow: none;
     width: 100%;
-    max-width: 300px;
+    max-width: 280px;
     font-size: 1.25rem;
 }
 
@@ -261,6 +261,9 @@ label{
 
 .add-recipe-form fieldset {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 2rem;
 }
 
