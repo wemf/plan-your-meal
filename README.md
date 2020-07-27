@@ -1,6 +1,6 @@
 # Features
 
-## Home page
+## Home page
 
 - Blog is fetching jsonplaceholder.typicode.com
 - Responsive burguer menu
