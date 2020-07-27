@@ -263,3 +263,7 @@ label{
     margin: 0 0 3rem 0;
     max-width: 300px;
 }
+
+table#recipe {
+    border-spacing: 2em 1em;
+}

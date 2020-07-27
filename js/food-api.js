@@ -47,7 +47,7 @@ fetch('../data/food.json')
         let td1 = document.createElement('td');
         let td2 = document.createElement('td');
         
-        td0.textContent = i;
+        td0.textContent = i+1;
         td1.textContent = arepa.ingredients[i];
         td2.textContent = arepa.directions[i];
         td2.setAttribute("colspan", 2);
