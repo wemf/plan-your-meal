@@ -20,9 +20,9 @@ fetch('../data/food.json')
         content.setAttribute("class", "food-card-content");
         h3.textContent = category.title;
         p.textContent = category.description;
-        link.setAttribute("href", `/add-recipies.html?category=${category.title}`);
+        link.setAttribute("href", `/add-recipes.html?category=${category.title}`);
         link.setAttribute("class", "btn btn-primary");
-        link.textContent = "Add recipies";
+        link.textContent = "Add recipes";
         
         picture.appendChild(img);
         container.appendChild(picture);
@@ -35,11 +35,11 @@ fetch('../data/food.json')
 
       });
 
-      //populate recipies
+      //populate recipes
       const recipe = document.getElementById("recipe");
       let tbody = document.createElement('tbody');
       // sample recipe
-      const arepa = data.recipies[0];
+      const arepa = data.recipes[0];
 
       for (let i = 0; i<4; i++){
         let tr = document.createElement('tr');
