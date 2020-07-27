@@ -29,6 +29,32 @@
     .food-card{
         justify-self: center;
     }
+
+    .navigation li {
+        display: block;
+        margin: 0 .3rem;
+    }
+    
+    .navigation li:first-child {
+        display: none;
+    }
+    
+    .navigation {
+        display: flex;
+        min-width: 300px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    .navigation a {
+        font-size: 1.5rem;
+    }
    
 }
   
