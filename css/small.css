@@ -162,3 +162,42 @@ article .post-content {
     border-bottom: 4px solid #76768E;
     padding: 0 1rem;
 }
+
+/*
+ * Contact section
+ */
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 5px 15px 2px;
+    border: 2px solid #000;
+    background-color: #fff;
+    line-height: 1.5;
+    box-shadow: none;
+    width: 100%;
+    max-width: 300px;
+    font-size: 1.25rem;
+}
+
+.contact-map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.contact-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
