@@ -1,0 +1,34 @@
+{
+    "categories": [
+        {
+            "image": "images/breakfast.jpg",
+            "title": "Breakfast",
+            "description": "Start your day with a good meal"
+        },
+        {
+            "image": "images/salad.jpg",
+            "title": "Salad",
+            "description": "Eat fresh and healthy green food"
+        },
+        {
+            "image": "images/soup.jpg",
+            "title": "Soup",
+            "description": "Heat your body with a delicious soup"
+        },
+        {
+            "image": "images/dinner.jpg",
+            "title": "Dinner",
+            "description": "Enjoy chef recipes as a family"
+        },
+        {
+            "image": "images/vegan.jpg",
+            "title": "Vegan",
+            "description": "Enjoy what you like the most"
+        },
+        {
+            "image": "images/dessert.jpg",
+            "title": "Dessert",
+            "description": "Treat yourself and sweeten your life"
+        }
+    ]
+}
