@@ -20,7 +20,7 @@ fetch('https://wemf.github.io/plan-your-meal/data/food.json')
         content.setAttribute("class", "food-card-content");
         h3.textContent = category.title;
         p.textContent = category.description;
-        link.setAttribute("href", `/add-recipes.html?category=${category.title}`);
+        link.setAttribute("href", `./add-recipes.html?category=${category.title}`);
         link.setAttribute("class", "btn btn-primary");
         link.textContent = "Add recipes";
         
