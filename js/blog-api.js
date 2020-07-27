@@ -12,7 +12,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
         let h3 = document.createElement('h3');
         let p = document.createElement('p');;
 
-        img.setAttribute("src", "https://via.placeholder.com/300");
+        img.setAttribute("src", `images/${i+1}.jpg`);
         h3.textContent = posts[i].title;
         p.textContent = posts[i].body;
         body.setAttribute("class", "post-content");
