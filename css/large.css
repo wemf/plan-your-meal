@@ -24,5 +24,16 @@
     .hero-banner{
         height: 320px;
     }
+
+    .food-categories {
+        display: grid;
+        flex-direction: unset;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+
+    .food-card{
+        justify-self: center;
+    }
     
 }

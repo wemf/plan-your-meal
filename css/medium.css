@@ -18,6 +18,17 @@
     .hero-banner{
         height: 300px;
     }
+
+    .food-categories {
+        display: grid;
+        flex-direction: unset;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .food-card{
+        justify-self: center;
+    }
    
 }
   

@@ -246,3 +246,20 @@ label{
     background: #fff;
     cursor: pointer;
 }
+
+/* food categories */
+
+.food-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-card img {
+    width: 300px;
+}
+
+.food-card {
+    margin: 0 0 3rem 0;
+    max-width: 300px;
+}
